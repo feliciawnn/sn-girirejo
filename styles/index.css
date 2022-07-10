@@ -1,0 +1,81 @@
+/* FONT FACE DECLARATION */
+@font-face {
+    font-family: Compadre;
+    src: url("../font/Compadre-Demo-Narrow.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Neometric;
+    src: url("../font/neometric-2-cufonfonts/Neometric\ Alt\ Bold\ \(Regular\).otf") format("opentype");
+}
+
+body{
+    font-family: Neometric;
+    background-color: #D2D1CC;
+}
+
+/* NAVIGATION BAR STYLING */
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.top-navbar{
+    display: inline-block;
+}
+
+.nav-elem{
+    background-color: grey;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 40px;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.nav-elem:hover{
+    background-color: #efefef;
+    color: #000;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.main-title{
+    font-family: Compadre;
+    display: inline-block;
+    margin: 0;
+}
+
+.nav-active{
+    background-color: #671426;
+}
+
+/* CARDS */
+.card-elem{
+    background-color: #000;
+    height: 400px;
+    color: #FFF;
+    text-align: center;   
+    border-radius: 50px;
+}
+
+.bottom-txt{
+    position: absolute;
+    bottom: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.top-txt{
+    position: absolute;
+    top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
