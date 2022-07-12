@@ -1,62 +1,3 @@
-/* FONT FACE DECLARATION */
-@font-face {
-    font-family: Compadre;
-    src: url("../font/Compadre-Demo-Narrow.otf") format("opentype");
-}
-
-@font-face {
-    font-family: Neometric;
-    src: url("../font/neometric-2-cufonfonts/Neometric\ Alt\ Bold\ \(Regular\).otf") format("opentype");
-}
-
-body{
-    font-family: Neometric;
-    background-color: #D2D1CC;
-}
-
-/* NAVIGATION BAR STYLING */
-.header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
-
-.top-navbar{
-    display: inline-block;
-}
-
-.nav-elem{
-    background-color: grey;
-    padding: 10px 20px;
-    margin: 0 5px;
-    border-radius: 40px;
-    text-decoration: none;
-    color: #FFF;
-}
-
-.nav-elem:hover{
-    background-color: #efefef;
-    color: #000;
-    transition: 0.3s;
-    text-decoration: none;
-}
-
-.compadre-font{
-    font-family: Compadre;
-}
-
-.main-title{
-    display: inline-block;
-    margin: 0;
-    font-size: 50px;
-}
-
-.nav-active{
-    background-color: #671426;
-}
-
 /* SECTIONS */
 .section-title{
     text-align: center;
@@ -66,7 +7,7 @@ body{
 .card-elem{
     background-color: #000;
     height: 400px;
-    color: #FFF;
+    color: #ecebe6;
     text-align: center;   
     border-radius: 50px;
 }
@@ -112,7 +53,7 @@ body{
     position: absolute;
     right: 0;
     top: 50%;
-    color: #FFF;
+    color: #ecebe6;
     text-align: right;
     padding-right: 72px;
     font-size: 500%;

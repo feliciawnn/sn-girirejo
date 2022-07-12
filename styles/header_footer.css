@@ -1,0 +1,92 @@
+/* FONT FACE DECLARATION */
+@font-face {
+    font-family: Compadre;
+    src: url("../font/Compadre-Demo-Narrow.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Neometric;
+    src: url("../font/neometric-2-cufonfonts/Neometric\ Alt\ Bold\ \(Regular\).otf") format("opentype");
+}
+
+body{
+    font-family: Neometric;
+    background-color: #D2D1CC;
+}
+
+/* NAVIGATION BAR STYLING */
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.top-navbar{
+    display: inline-block;
+}
+
+.nav-elem{
+    background-color: grey;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 40px;
+    text-decoration: none;
+    color: #ecebe6;
+}
+
+.nav-elem:hover{
+    background-color: #efefef;
+    color: #000;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.compadre-font{
+    font-family: Compadre;
+}
+
+.main-title{
+    display: inline-block;
+    margin: 0;
+    font-size: 50px;
+}
+
+.nav-active{
+    background-color: #631022;
+}
+
+/* FOOTER */
+.page-footer{
+    background-color: #631022;
+}
+
+.logo{
+    padding-top: 24px;
+    width:100%;
+}
+
+.footer-txt{
+    color: #ecebe6;
+    margin: 0;
+}
+
+.footer-top{
+    padding-top: 8%;
+}
+
+.footer-a{
+    text-decoration: none;
+    color: #ecebe6;
+}
+
+.footer-a:hover{
+    color: #888888;
+}
+
+li{
+    list-style: none;
+    padding-bottom: 24px;
+}
+
