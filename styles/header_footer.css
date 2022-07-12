@@ -12,6 +12,9 @@
 body{
     font-family: Neometric;
     background-color: #D2D1CC;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 /* NAVIGATION BAR STYLING */
@@ -60,6 +63,7 @@ body{
 /* FOOTER */
 .page-footer{
     background-color: #631022;
+
 }
 
 .logo{
@@ -83,6 +87,7 @@ body{
 
 .footer-a:hover{
     color: #888888;
+    transition: 0.3s;
 }
 
 li{
@@ -90,3 +95,15 @@ li{
     padding-bottom: 24px;
 }
 
+.top-btn{
+    cursor: pointer;
+}
+
+.top-btn:hover{
+    color: #888888;
+    transition: 0.3s;
+}
+
+.content{
+    flex-grow: 1;
+}

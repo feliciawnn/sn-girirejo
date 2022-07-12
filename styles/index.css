@@ -3,6 +3,10 @@
     text-align: center;
 }
 
+.section{
+    margin-bottom: 48px;
+}
+
 /* CARDS */
 .card-elem{
     background-color: #000;
