@@ -7,6 +7,15 @@
 @font-face {
     font-family: Neometric;
     src: url("../font/neometric-2-cufonfonts/Neometric\ Alt\ Bold\ \(Regular\).otf") format("opentype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Neometric;
+    src: url("../font/neometric-2-cufonfonts/Neometric-Regular.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
 }
 
 body{
@@ -63,7 +72,7 @@ body{
 /* FOOTER */
 .page-footer{
     background-color: #631022;
-
+    padding-bottom: 8px;
 }
 
 .logo{
@@ -106,4 +115,14 @@ li{
 
 .content{
     flex-grow: 1;
+}
+
+.dev-anchor{
+    color: #d2d2d0;
+}
+
+
+.dev-anchor:hover{
+    color: #ffffff;
+    transition: 0.3s;
 }

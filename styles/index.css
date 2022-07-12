@@ -1,6 +1,7 @@
 /* SECTIONS */
 .section-title{
     text-align: center;
+    font-size: 48px;
 }
 
 .section{
@@ -9,11 +10,12 @@
 
 /* CARDS */
 .card-elem{
-    background-color: #000;
+    background-color: rgb(73, 73, 72);
     height: 400px;
     color: #ecebe6;
     text-align: center;   
     border-radius: 50px;
+    position: relative;
 }
 
 .bottom-txt{
@@ -23,6 +25,11 @@
     margin-right: auto;
     left: 0;
     right: 0;
+    font-size: 20px;
+    text-decoration: underline;
+    text-decoration-color: #631022;
+    text-underline-offset: 16px;
+    font-weight: bold;
 }
 
 .top-txt{
@@ -32,6 +39,11 @@
     margin-right: auto;
     left: 0;
     right: 0;
+    font-size: 20px;
+    text-decoration: underline;
+    text-decoration-color: #631022;
+    text-underline-offset: 16px;
+    font-weight: bold;
 }
 
 /* MOUNTAIN BACKGROUND */
