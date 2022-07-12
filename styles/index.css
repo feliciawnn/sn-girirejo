@@ -43,14 +43,23 @@ body{
     text-decoration: none;
 }
 
-.main-title{
+.compadre-font{
     font-family: Compadre;
+}
+
+.main-title{
     display: inline-block;
     margin: 0;
+    font-size: 50px;
 }
 
 .nav-active{
     background-color: #671426;
+}
+
+/* SECTIONS */
+.section-title{
+    text-align: center;
 }
 
 /* CARDS */
@@ -78,4 +87,38 @@ body{
     margin-right: auto;
     left: 0;
     right: 0;
+}
+
+/* MOUNTAIN BACKGROUND */
+.images-container{
+    position: relative;
+}
+
+.ripped-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.title-img{
+    z-index: 1;
+    width: 100%;
+    margin-bottom: 48px;
+}
+
+.img-txt{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    color: #FFF;
+    text-align: right;
+    padding-right: 72px;
+    font-size: 500%;
+}
+
+/* MAPS */
+.gmaps{
+    max-width: 100%;
 }
