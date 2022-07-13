@@ -8,6 +8,22 @@
     margin-bottom: 48px;
 }
 
+.section-subtitle{
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.section-desc{
+    font-size: 18px;
+    text-align: center;
+    padding: 24px 0;
+}
+
+.ver-center{
+    display:flex;
+    align-items:center;
+}
+
 /* CARDS */
 .card-elem{
     background-color: rgb(73, 73, 72);
@@ -16,6 +32,8 @@
     text-align: center;   
     border-radius: 50px;
     position: relative;
+    width: 33%;
+    display: inline-block;
 }
 
 .bottom-txt{
@@ -26,24 +44,18 @@
     left: 0;
     right: 0;
     font-size: 20px;
-    text-decoration: underline;
-    text-decoration-color: #631022;
-    text-underline-offset: 16px;
     font-weight: bold;
 }
 
-.top-txt{
-    position: absolute;
-    top: 10%;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    font-size: 20px;
-    text-decoration: underline;
-    text-decoration-color: #631022;
-    text-underline-offset: 16px;
-    font-weight: bold;
+.card-img{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center; /* horizontal center */
+    align-items: center; /* vertical center */
+    border-radius: 50px;
+    width: 100%; /* Thumbnail dimensions. */
+    height: 100%; /*** Change the height to make the image smaller ***/
 }
 
 /* VIDEO BG */
@@ -92,4 +104,17 @@
 /* MAPS */
 .gmaps{
     max-width: 100%;
+}
+
+/* CAROUSEL */
+
+/* GALLERY */
+.gallery-container{
+    background-color: #631022;
+    padding-bottom: 8px;
+}
+
+.gallery-title{
+    color:#fff;
+    padding: 48px 0;
 }
