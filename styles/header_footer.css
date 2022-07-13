@@ -68,6 +68,7 @@ body{
 
 .nav-active{
     background-color: #631022;
+    font-weight: bold;
 }
 
 /* FOOTER */
