@@ -131,6 +131,10 @@ button{
       }
 }
 
+.chevron-wrapper{
+    cursor: pointer;
+}
+
 
 /* MAPS */
 .gmaps{

@@ -74,6 +74,11 @@ body{
     margin-left: 48px
 }
 
+.main-title:hover{
+    color: #d3d3d3;
+    transition: 0.3s;
+}
+
 .nav-buttons{
     position: absolute;
     right: 0;

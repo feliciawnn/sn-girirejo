@@ -1,17 +1,14 @@
-// carousel function
-$('.owl-carousel').owlCarousel({
-    loop: true,
-    margin: 15,
-    nav: true,
-    responsive: {
-        0: {
-            items: 1
-        },
-        600: {
-            items: 2
-        },
-        1000: {
-            items: 3
-        }
+// Icon click to go scroll down
+function scrollDown(){
+    window.scroll(0,findPos(document.getElementById("abtTitle")));
+}
+
+function findPos(obj) {
+    var curtop = 0;
+    if (obj.offsetParent) {
+        do {
+            curtop += obj.offsetTop;
+        } while (obj = obj.offsetParent);
+    return [curtop];
     }
-})
+}

@@ -7,7 +7,6 @@
 
         <link rel="stylesheet" href="./styles/index.css">
         <link rel="stylesheet" href="./styles/header_footer.css">
-        <link rel="shortcut icon" href="./images/logo.ico">
 
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,15 +15,7 @@
         <title>Desa Girirejo | Beranda</title>
     </head>
     <body>
-        <!--Nav hamburger-->
-        <div class="pos-f-t">
-            <div class="collapse" id="navbarToggleExternalContent">
-              <div class="bg-dark p-4">
-                <h4 class="text-white">Collapsed content</h4>
-                <span class="text-muted">Toggleable via the navbar brand.</span>
-              </div>
-            </div>
-
+        <!-- HEADER -->
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <a class="navbar-brand compadre-font main-title" href="./index.html">DESA GIRIREJO</a>
@@ -72,7 +63,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-2">
+                <div class="col-2 chevron-wrapper" onclick="scrollDown()">
                     <svg class="vid-icon" xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="#fff" class="bi bi-chevron-double-down" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
                         <path fill-rule="evenodd" d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
@@ -85,7 +76,7 @@
             <div class="container section">
                 <div class="row">
                     <div class="col-12 col-lg-8" data-aos="fade-up">
-                        <h2 class="section-title compadre-font about-title">
+                        <h2 class="section-title compadre-font about-title" id="abtTitle">
                             Tentang Girirejo
                         </h2>
                         <p class="section">
@@ -100,7 +91,7 @@
                         </p>
                     </div>
                     <div class="col-12 col-lg-4" data-aos="fade-up">
-                        <iframe class="gmaps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15826.636230213304!2d110.36857522363997!3d-7.392047464660583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a7dd320e71acb%3A0x5027a76e3558f60!2sGirirejo%2C%20Ngablak%2C%20Magelang%20Regency%2C%20Central%20Java%2C%20Indonesia!5e0!3m2!1sen!2smy!4v1657643424110!5m2!1sen!2smy" width="600" height="450" style="border:0; width: 100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe id="gmaps" class="gmaps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15826.636230213304!2d110.36857522363997!3d-7.392047464660583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a7dd320e71acb%3A0x5027a76e3558f60!2sGirirejo%2C%20Ngablak%2C%20Magelang%20Regency%2C%20Central%20Java%2C%20Indonesia!5e0!3m2!1sen!2smy!4v1657643424110!5m2!1sen!2smy" width="600" height="450" style="border:0; width: 100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
@@ -243,6 +234,7 @@
 
         <!-- IMPORT SCRIPTS -->
         <script src="./javascript/header_footer.js"></script>
+        <script src="./javascript/index.js"></script>
 
         <script src="./javascript/aos-master/dist/aos.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
