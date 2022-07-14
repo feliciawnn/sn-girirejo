@@ -216,7 +216,7 @@ button{
 }
 
 .card-container{
-    width: 70%;
+    width: 100%;
 }
 
 /* PROFILE VIDEO */
@@ -230,6 +230,7 @@ button{
 /* MEDIA QUERIES */
 /* Extra small devices (phones, 600px and down) */
 @media(max-width: 600px) {
+    .card-container{width: 70%;}
     .card-elem{height:50vh;}
     .nav-elem{width:300px;}
     .card-container{margin-left: 15%;}
