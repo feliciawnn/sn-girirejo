@@ -59,6 +59,11 @@ body{
     font-family: Compadre;
 }
 
+.neo-bold{
+    font-weight: bold;
+    font-family: Neometric;
+}
+
 .main-title{
     display: inline-block;
     margin: 0;
