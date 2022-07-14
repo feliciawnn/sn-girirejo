@@ -25,6 +25,12 @@
     align-items:center;
 }
 
+.about-title{
+    text-align: left;
+    margin-bottom: 24px; 
+    font-size: 48px;
+}
+
 /* CARDS */
 .card-elem{
     background-color: rgb(73, 73, 72);
@@ -209,6 +215,10 @@ button{
     font-size: 60px;
 }
 
+.card-container{
+    width: 70%;
+}
+
 /* PROFILE VIDEO */
 .profile-video{
     max-height: 90vh;
@@ -216,3 +226,17 @@ button{
     margin: 12px auto;
     display: block;
 }
+
+/* MEDIA QUERIES */
+/* Extra small devices (phones, 600px and down) */
+@media(min-width: 600px) {
+    .logo{}
+    .card-elem{height:50vh;}
+    .nav-elem{width:300px;}
+    .card-container{margin-left: 15%;}
+    .vid-txt{font-size:60px;}
+    .section-title{font-size:46px;}
+    h2 {font-size: 24px;}
+    p, .section-desc, .vid-subtxt{font-size: 20px;}
+}
+

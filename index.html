@@ -8,6 +8,11 @@
         <link rel="stylesheet" href="./styles/index.css">
         <link rel="stylesheet" href="./styles/header_footer.css">
         <link rel="shortcut icon" href="./images/logo.ico">
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+
         <title>Desa Girirejo | Beranda</title>
     </head>
     <body>
@@ -23,9 +28,9 @@
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <a class="navbar-brand compadre-font main-title" href="./index.html">DESA GIRIREJO</a>
-                <button style="background-color: rgba(255, 255, 255, 0.8); width: 60px; height: 60px; margin-right: 40px;" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler hamburger-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="black" class="bi bi-list" viewBox="0 0 16 16">
+                        <svg style="text-align: center;" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="black" class="bi bi-list" viewBox="0 0 16 16">
                             <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
                         </svg>
                     </span>
@@ -46,7 +51,7 @@
             </div>
         </nav>
 
-        <div class="header container section">
+        <div class="header container">
             <div class="overlay"></div>
             <video autoplay muted loop id="vid-bg" src="./media/homepage_vid.mp4" type="video/mp4"></video>
         </div>
@@ -80,7 +85,7 @@
             <div class="container section">
                 <div class="row">
                     <div class="col-12 col-lg-8" data-aos="fade-up">
-                        <h2 class="section-title compadre-font" style="text-align: left; margin-bottom: 24px; font-size: 48px;">
+                        <h2 class="section-title compadre-font about-title">
                             Tentang Girirejo
                         </h2>
                         <p class="section">
@@ -106,7 +111,7 @@
                 
                 <div class="row">
                     <div class="col-12 m-auto">
-                        <div class="owl-carousel owl-theme">
+                        <div class="owl-carousel owl-theme card-container">
                             <div class="item mb-4">
                                 <div class="card-elem" style="background: linear-gradient(to top, rgba(99,16,34,1), rgba(99,16,34,0)), url('./media/testa.jpg') no-repeat top center/100%;">
                                     <p class="bottom-txt">Gunung Andong</p>
@@ -192,30 +197,30 @@
         <div class="container-fluid page-footer">
             <div class="container">
                 <div class="row">
-                    <div class="col-1">
+                    <div class="col-2 col-lg-1">
                         <img class="logo" src="./media/logo.png">
                     </div>
-                    <div class="col">
+                    <div class="col-5 col-lg-4">
                         <p class="footer-txt footer-top" style="font-weight: bold;">SAUJANA</p>
                         <p class="footer-txt" style="font-weight: bold;">NGABLAK</p>
                         <p class="footer-txt">KKN-PPM UGM 2022</p>
                     </div>
 
-                    <div class="col">
+                    <div class="col-5 col-lg-3">
                         <ul>
                             <li class="footer-top"><a class="footer-a" href="./index.html">Beranda</a></li>
                             <li><a class="footer-a"href="./pariwisata.html">Pariwisata</a></li>
                             <li><a class="footer-a" href="./umkm.html">UMKM</a></li>
                         </ul>
                     </div>
-                    <div class="col">
+                    <div class="col-12 col-lg-4">
                         <div class="footer-top">
                             <a class="footer-a" href="https://goo.gl/maps/Yp2tAmEkSf8r212b7" target="_blank">Google Maps Desa Girirejo</a>
                         </div>
                         <br>
                         <p class="footer-txt">Contact Person:</p>
                         <p class="footer-txt">087xxxxxxxxx</p>
-                        <p class="footer-txt"><b>Pak John Doe</b></p>
+                        <p class="footer-txt"><b>Pak John Doe</b></p><br>
                     </div>
                 </div>
                 <hr style="color: #FFF; height: 2px; margin: 0 0 8px 0;">
@@ -226,7 +231,7 @@
                     </div>
                     <div class="col my-auto">
                         <p class="footer-txt top-btn" style="text-align: right;" onclick="goToTop()">
-                            Kembali Ke Atas v.1   
+                            Kembali Ke Atas v.2   
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-arrow-up-circle" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
                             </svg>
@@ -251,7 +256,7 @@
                 loop: true,
                 margin: 15,
                 nav: true,
-                items: 3,
+                items: 4,
                 responsive: {
                     0: {
                         items: 1
