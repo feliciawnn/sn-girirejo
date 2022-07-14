@@ -90,14 +90,15 @@ button{
     position: relative;
 }
 
-.vid-gap{
-    height:40vh;
+.main-title-container{
+    position: absolute;
+    top: 30vh;
+    right: 48px;
 }
 
 .vid-txt{
     color: #fff;
     text-align: right;
-    bottom: 0%;
     font-size: 80px;
 }
 
@@ -108,23 +109,18 @@ button{
 
 .vid-icon{
     text-align: center;
-    
-    top: 50%;
-    position: absolute;
-
-    bottom: 0;
-    /*animation: MoveUpDown 1s linear infinite;*/
+    animation: MoveUpDown 1s linear infinite;
 }
-/*
+
 @keyframes MoveUpDown {
     0%, 100% {
-        transform: translateY(0);
+        transform: translateY(10px);
       }
       50% {
-        transform: translateY(-30px);
+        transform: translateY(50px);
       }
 }
-*/
+
 
 /* MAPS */
 .gmaps{
@@ -212,6 +208,7 @@ button{
 /* PROFILE VIDEO */
 .profile-video{
     max-height: 90vh;
+    max-width: 70vw;
     margin: 12px auto;
     display: block;
 }
