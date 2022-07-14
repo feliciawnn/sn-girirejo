@@ -131,7 +131,7 @@ button{
 }
 
 .gal-img{
-    max-height: 30vh;
+    height: 100%;
     max-width: 250px;
     padding-bottom: 48px;
     border-radius: 10px;
