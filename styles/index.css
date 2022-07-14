@@ -115,6 +115,7 @@ button{
 .gallery-container{
     background-color: #631022;
     padding-bottom: 8px;
+    overflow: hidden;
 }
 
 .gal-title, .gal-subtitle{
