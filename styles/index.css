@@ -229,14 +229,14 @@ button{
 
 /* MEDIA QUERIES */
 /* Extra small devices (phones, 600px and down) */
-@media(min-width: 600px) {
-    .logo{}
+@media(max-width: 600px) {
     .card-elem{height:50vh;}
     .nav-elem{width:300px;}
     .card-container{margin-left: 15%;}
-    .vid-txt{font-size:60px;}
-    .section-title{font-size:46px;}
+    .vid-txt{font-size:40px;}
+    .vid-icon{width:40px;}
+    .section-title{font-size:36px;}
     h2 {font-size: 24px;}
-    p, .section-desc, .vid-subtxt{font-size: 20px;}
+    p, .section-desc, .vid-subtxt{font-size: 16px;}
 }
 
