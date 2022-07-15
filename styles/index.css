@@ -93,12 +93,12 @@ button{
 
 .images-container{
     height: 95vh;
-    position: relative;
+    /*position: relative;*/ 
 }
 
 .main-title-container{
     position: absolute;
-    top: 30vh;
+    top: 50vh;
     right: 48px;
 }
 
@@ -245,3 +245,8 @@ button{
     p, .section-desc, .vid-subtxt{font-size: 16px;}
 }
 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .vid-txt{font-size:50px;}
+    p, .section-desc, .vid-subtxt{font-size: 24px;}
+}

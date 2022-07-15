@@ -107,6 +107,10 @@ body{
     margin: 0;
 }
 
+.page-footer, .footer-txt{
+    font-size: 20px;
+}
+
 .footer-top{
     padding-top: 8%;
 }
@@ -181,7 +185,20 @@ li{
 @media(max-width: 600px) {
     .main-title{font-size: 40px;margin:0;}
     .hamburger-btn{width:40px;height:40px;margin:0;}
+    svg{transform: translateX(-7px);}
     .footer-txt, .footer-a{font-size: 14px;}
     .footer-top{padding-top: 16px;}
     li{padding:0;}
+    .nav-elem{margin:8px;width:80vw;}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+    .main-title{font-size: 40px;margin:0;}
+    .hamburger-btn{width:50px;height:50px;margin:0;}
+    svg{transform: translateX(-2px);}
+    .footer-txt, .footer-a{font-size: 16px;}
+    .footer-top{padding-top: 18px;}
+    li{padding:0;}
+    .nav-elem{margin:8px;width:80vw;}
 }
