@@ -253,7 +253,7 @@ button{
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
     .vid-txt{font-size:50px;}
     p, .section-desc, .vid-subtxt{font-size: 24px;}
 }
