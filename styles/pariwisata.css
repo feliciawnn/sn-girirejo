@@ -1,4 +1,5 @@
-html{
+html,body{
+    width: 100%;
     overflow-x: hidden;
 }
 
@@ -9,7 +10,7 @@ html{
 }
 
 .section{
-    margin-bottom: 100px;
+    margin-bottom: 48px;
 }
 
 .section-top{
@@ -102,6 +103,10 @@ button{
 }
 
 /* AUTO SCROLL IMAGE */
+.clickable-img-wrapper{
+    margin-bottom: 100px;
+}
+
 .clickable-img{
     width: 100%;
     max-height: 60vh;
@@ -126,6 +131,10 @@ button{
     margin: 24px 0;
 }
 
+.htm-red{
+    background-color: rgba(99, 16, 34,0.5);
+    color: #fff;
+}
 .htm p{
     display: inline;
     font-size: 16px;
@@ -152,7 +161,7 @@ button{
 }
 
 .three-sm-bottom{
-    max-height: 60vh;
+    max-height: 40vh;
     width: 70%;
     border-radius: 20px;
     float: right;    
@@ -163,6 +172,30 @@ button{
     text-align: right;
 }
 
+/* 4 IMAGE ALIGNMENT */
+.four-big, .four-sm{
+    width: 100%;
+    object-fit: cover;
+    margin: 16px 0;
+    border-radius: 20px;
+}
+
+.four-big{
+    height: 70vh;
+}
+
+.four-sm{
+    height:30vh;
+}
+
+/* STACKED IMAGES */
+.stack-img{
+    max-height: 30vh;
+    margin: 12px 0;
+    border-radius: 20px;
+    width: 100%;
+    object-fit: cover;
+}
 
 /* MEDIA QUERIES */
 /* Extra small devices (phones, 600px and down) */
@@ -181,10 +214,18 @@ button{
     .htm p{font-size: 12px;}
     .htm{padding:0px; border-radius: 8px;}
     .htm-icon{margin-left:20px;}
+    .section{margin-bottom: 50px;}
+    .clickable-img-wrapper{margin-bottom: 50px;}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) and (max-width: 1000px) {
     .vid-txt{font-size:40px;}
     li, p, .section-desc, .vid-subtxt{font-size: 20px;}
+    .three-img-top{transform: translate(0,0); margin-bottom: 24px;}
+    .three-sm-bottom{width:100%;}
+    .tagline{margin-top:12px 0;}
+    .htm p{font-size: 16px;}
+    .htm{padding:8px; border-radius: 8px;}
+    .htm-icon{margin-left:20px;}
 }
