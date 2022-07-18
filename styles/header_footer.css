@@ -4,22 +4,8 @@
     src: url("../font/Compadre-Demo-Narrow.otf") format("opentype");
 }
 
-@font-face {
-    font-family: Neometric;
-    src: url("../font/neometric-2-cufonfonts/Neometric\ Alt\ Bold\ \(Regular\).otf") format("opentype");
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: Neometric;
-    src: url("../font/neometric-2-cufonfonts/Neometric-Regular.otf") format("opentype");
-    font-weight: normal;
-    font-style: normal;
-}
-
 body{
-    font-family: Neometric;
+    font-family: 'Inter', sans-serif;
     background-color: #F4F6EA;
     display: flex;
     flex-direction: column;
@@ -64,7 +50,7 @@ body{
 
 .neo-bold{
     font-weight: bold;
-    font-family: Neometric;
+    font-family: 'Inter', sans-serif;
 }
 
 .main-title{
