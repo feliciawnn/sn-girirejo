@@ -162,8 +162,8 @@ button{
 }
 
 .img-wrapper{
-    width: 25vh;
-    height: 25vh;
+    width: 40vh;
+    height: 40vh;
     border-radius: 10px;
     display: inline-block;
     margin: 0 8px 24px 8px;
@@ -177,13 +177,8 @@ button{
     object-fit: cover;
 }
 
-.gal-img:hover{
-    transform: scale(1.2);
-    cursor: pointer;
-}
-
 .scroll-track {
-    max-width: 500vh;
+    max-width: 800vh;
     margin: auto;
     padding: 16px;
     position: relative;
