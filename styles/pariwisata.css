@@ -37,7 +37,7 @@ html,body{
     width: 100%;
     max-height: 50vh;
     object-fit: cover;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .txt-center{
@@ -110,7 +110,7 @@ button{
 .clickable-img{
     width: 100%;
     max-height: 60vh;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .clickable-img:hover{
@@ -127,7 +127,7 @@ button{
 .htm{
     background-color: rgba(255,255,255,0.5);
     padding: 18px;
-    border-radius: 20px;
+    border-radius: 10px;
     margin: 24px 0;
 }
 
@@ -150,20 +150,20 @@ button{
     max-height: 60vh;
     width: 100%;
     transform: translateY(-24px);
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .three-big-bottom{
     max-height: 60vh;
     width: 100%;
-    border-radius: 20px;
+    border-radius: 10px;
     margin-bottom: 48px;
 }
 
 .three-sm-bottom{
     max-height: 40vh;
     width: 70%;
-    border-radius: 20px;
+    border-radius: 10px;
     float: right;    
 }
 
@@ -177,7 +177,7 @@ button{
     width: 100%;
     object-fit: cover;
     margin: 16px 0;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .four-big{
@@ -192,7 +192,7 @@ button{
 .stack-img{
     max-height: 30vh;
     margin: 12px 0;
-    border-radius: 20px;
+    border-radius: 10px;
     width: 100%;
     object-fit: cover;
 }
@@ -216,6 +216,8 @@ button{
     .htm-icon{margin-left:20px;}
     .section{margin-bottom: 50px;}
     .clickable-img-wrapper{margin-bottom: 50px;}
+    .four-big{height:30vh;}
+    .four-sm{height:20vh;}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
