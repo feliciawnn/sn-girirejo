@@ -276,10 +276,12 @@ button{
     .section-title{font-size:36px;}
     h2 {font-size: 24px;}
     p, .section-desc, .vid-subtxt{font-size: 16px;}
+    .img-wrapper{width:40vw;height:40vw;}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) and (max-width: 1000px) {
     .vid-txt{font-size:50px;}
     p, .section-desc, .vid-subtxt{font-size: 24px;}
+    .img-wrapper{width:40vw;height:40vw;}
 }
