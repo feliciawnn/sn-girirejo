@@ -204,6 +204,7 @@ button{
     h2 {font-size: 16px;}
     h4{font-size: 16px;}
     .section-content-left{padding:0;}
+    .section{margin-bottom: 24px;}
     li, p, .section-desc, .vid-subtxt{font-size: 14px;}
     .three-img-top{transform: translate(0,0); margin-bottom: 24px;}
     .three-sm-bottom{width:100%;}
